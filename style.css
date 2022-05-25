@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'BIZ UDPGothic', sans-serif;
+    background-color: #eb4d4b;
+}
+
+.main-container{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ip-display, .location-display, .geolocation-display {
+    font-size: calc(2rem + 1vw);
+    margin: 1rem;
+    color:rgb(255, 255, 255);
+}
+
+/* Button animation */
