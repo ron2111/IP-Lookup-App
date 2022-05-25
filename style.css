@@ -14,11 +14,12 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: left;
+    
 }
 
-.ip-display, .location-display, .geolocation-display {
-    font-size: calc(2rem + 1vw);
+.ip-display, .location-display, .geolocation-display, .postal, .internet-provider {
+    font-size: calc(1.2rem + 1vw);
     margin: 1rem;
     color:rgb(255, 255, 255);
 }
